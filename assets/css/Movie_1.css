@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+body {
+    background-image: url("/assets/img/SalleCine.jpeg");
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-image: url("/assets/img/vintage-film-strip-frame-reel-background_1017-23460.jpg");
+  }
+  
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+.icon {
+    width: 70px;
+  }
+  
+.title {
+    color: #fff;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Itim', cursive;
+  }
+
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+header form {
+    display: flex;
+    justify-content: center;
+}
+
+.titre {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.result {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    background: rgb(78, 115, 193);
+}
+
+.result img {
+    opacity: 1;
+    border-radius: 10px;
+}
+
+.nom {
+    font-family: 'Orbitron', sans-serif;
+    color: rgb(249, 235, 235);
+}
+
+.date {
+    font-family: 'Orbitron', sans-serif;
+    color:brown
+}
+
+.page-button {
+    color: blueviolet;
+}
+
+.page-button:hover {
+    opacity: 0.5;
+}
+

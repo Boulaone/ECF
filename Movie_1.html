@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/Movie_1.css">
+    <title>Movie Search</title>
+    <script src="/assets/js/movie1.js" defer></script>
+</head>
+  <body>
+    <nav>
+      <div class="nav-container">
+        <a href="#">
+          <img class="icon" src="/assets/img/cinema-ticket-isolated-on-transparent-2234737-removebg-preview.png" alt="icon1">
+        </a>
+        <h1 class="title">Movie Search</h1>
+        <a href="#">
+          <img class="icon" src="/assets/img/istockphoto-811790230-1024x1024-removebg-preview.png" alt="icon2">
+        </a>
+      </div>
+    </nav>
+    <header>
+    <form id="search-form">
+      <input type="text" id="title" placeholder="Title">
+      <input type="text" id="year" placeholder="Year">
+      <select id="type">
+        <option value="movie">Movie</option>
+        <option value="series">Series</option>
+        <option value="saison">Saison</option>
+        <option value="episode">Episode</option>
+      </select>
+      <button type="submit">Search</button>
+    </form>
+  </header>
+  <main>
+    <div class="titre" id="results"></div>
+    <div class="pagi" id="pagination"></div>
+  </main>
+  </body>
+</html>
